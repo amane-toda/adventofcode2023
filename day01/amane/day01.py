@@ -61,6 +61,9 @@ print(grand_total)
 
 # Create dict converter for string to integer value
 num_dict = [
+    #TODO Cleverer way to do this conjoined number check
+    {'num_str' : 'twone', 'int_str': '21'},
+    {'num_str' : 'sevenine', 'int_str': '79'},
     {'num_str' : 'one', 'int_str': '1'},
     {'num_str' : 'two', 'int_str': '2'},
     {'num_str' : 'three', 'int_str': '3'},
@@ -155,6 +158,7 @@ print(grand_total)
 
 #TODO DELETE ME
 #Get 54983, but too low
+# Get 55063, by hacking for checks for twone and sevenine but also too low
 
 # %%
 
